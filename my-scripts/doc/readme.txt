@@ -16,16 +16,16 @@ git remote add origin git@github.com:RobertBerger/docker-sphinx-doc.git
 
 git push -u origin master
 
-3) use my repo
-
-mv meta-java/ meta-java.ori
-git clone git@github.com:RobertBerger/meta-java.git
+#3) use my repo
+#
+#mv meta-java/ meta-java.ori
+#git clone git@github.com:RobertBerger/meta-java.git
 
 4) add upstream
 
-cd meta-java
+cd docker-sphinx-doc
 
-git remote add official-upstream git://git.yoctoproject.org/meta-java
+git remote add official-upstream git://github.com/sphinx-doc/docker.git
 
 git fetch official-upstream
 
