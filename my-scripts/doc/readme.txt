@@ -2,9 +2,9 @@
 
 2) add my-scripts dir
 
-cd meta-java
+cd docker-sphinx-doc
 
-echo "# meta-java fork" >> README.md
+echo "# https://github.com/sphinx-doc/docker fork" >> README.md
 
 git init
 
@@ -12,7 +12,7 @@ git add .
 
 git commit -m "first commit"
 
-git remote add origin git@github.com:RobertBerger/meta-java.git
+git remote add origin git@github.com:RobertBerger/docker-sphinx-doc.git
 
 git push -u origin master
 
