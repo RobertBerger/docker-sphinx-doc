@@ -31,11 +31,11 @@ git fetch official-upstream
 
 git branch -a
 
-5) use specific upstream branch/commit and make own branch
-
-syntax: git fetch url-to-repo branchname:refs/remotes/origin/branchname
-
-git fetch git://git.yoctoproject.org/meta-java master-next:refs/remotes/origin/master-next
+#5) use specific upstream branch/commit and make own branch
+#
+#syntax: git fetch url-to-repo branchname:refs/remotes/origin/branchname
+#
+#git fetch git://github.com/sphinx-doc/docker.git master-next:refs/remotes/origin/master-next
 
 6) Update from git.yoctoproject:
 git co master
